@@ -1,4 +1,5 @@
 this is uncommented and badly organized code
+
 i will be rewriting codegen and the parser eventually so it is not a final version
 
 this is the structure within studio:
@@ -35,13 +36,19 @@ example:
 libraries must be object files (made with the assembler), passed into the third argument of compile
 
 so in final:
+
   first argument is the source,
+  
   second argument is a root instance, so a folder, for the preprocessor to be able to parse through includes properly
+  
   third argument is flags,
+  
   fourth argument is a table consistent of references to modules of a library, or a buffer of the library
 
 the code is very poorly optimized and some things that seem like they would work do not.
+
 this does not have a proper pointer type, pointers are integers. (int a = (int)&b)
+
 strings are poorly done, only work on declaration in global scope, and arent actually a pointer, you must do &string
 
 example:
