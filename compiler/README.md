@@ -35,15 +35,17 @@ example:
 
 libraries must be object files (made with the assembler), passed into the third argument of compile
 
+
 so in final:
 
-  first argument is the source,
+  - first argument is the source,
   
-  second argument is a root instance, so a folder, for the preprocessor to be able to parse through includes properly
+  - second argument is a root instance, so a folder, for the preprocessor to be able to parse through includes properly
   
-  third argument is flags,
+  - third argument is flags,
   
-  fourth argument is a table consistent of references to modules of a library, or a buffer of the library
+  - fourth argument is a table consistent of references to modules of a library, or a buffer of the library
+
 
 the code is very poorly optimized and some things that seem like they would work do not.
 
