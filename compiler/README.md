@@ -2,6 +2,7 @@ this is uncommented and badly organized code
 i will be rewriting codegen and the parser eventually so it is not a final version
 
 this is the structure within studio:
+
 <img width="202" height="132" alt="image" src="https://github.com/user-attachments/assets/e1338eed-57e4-4f7a-9548-4171d9254ed2" />
 
 this requires both the assembler and linker to function
